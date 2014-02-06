@@ -1,4 +1,4 @@
-#GarantiaData CSV memcached populator
+#Redis Labs (formerly Garantia Data) CSV memcached populator
 This utility populates a memcached server from the keys, values and metadata available in GarantiaData exported CSV files.
 
 #CSV file format
@@ -15,4 +15,4 @@ key_name,some text including some binary data:\xff\x00,1F,292161600
 ```
 Note that if the key or value include any commas, forward slashes or non printable chars they need to be escaped.
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/6a50d0aa4c2e0213d38faab87a4e1c01 "githalytics.com")](http://githalytics.com/GarantiaData/memcache_populator)
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/c14e0491029f2718c7050da355f93164 "githalytics.com")](http://githalytics.com/RedisLabs/memcache_populator)
