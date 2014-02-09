@@ -1,5 +1,5 @@
 #Redis Labs (formerly Garantia Data) CSV memcached populator
-This utility populates a memcached server from the keys, values and metadata available in GarantiaData exported CSV files.
+This utility populates a memcached server from the keys, values and metadata available in Redis Labs exported CSV files.
 
 #CSV file format
 Each row in the CSV represents a single key-value pair. The CSV has 4 columns in the following order:
