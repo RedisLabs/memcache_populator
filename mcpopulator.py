@@ -32,7 +32,7 @@ if __name__ == '__main__':
     argParser = argparse.ArgumentParser(description='memcache populator.')
     argParser.add_argument('--addr', default='localhost', help='Server address. Defaults to localhost.')
     argParser.add_argument('--port', default=11211, type=int, help='Server port. Defaults to 11211.')
-    argParser.add_argument('csv_file', help='CSV File to read data from. See: https://github.com/GarantiaData/memcache_populator for details.')
+    argParser.add_argument('csv_file', help='CSV File to read data from. See: https://github.com/RedisLabs/memcache_populator for details.')
     
     args = argParser.parse_args()
     
